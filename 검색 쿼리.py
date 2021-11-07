@@ -6,7 +6,7 @@
 
 import time
 import pymysql
-conn = pymysql.connect(host='localhost', user='username, password='password', db='imdb')
+conn = pymysql.connect(host='localhost', user='username', password='password', db='imdb')
 curs = conn.cursor(pymysql.cursors.DictCursor)
 
 
